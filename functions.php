@@ -116,3 +116,23 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Navwaker added
+ */
+require get_template_directory() . '/inc/wp_bootstrap_navwalker.php';
+
+/**
+ * breadcrumb added
+ */
+require get_template_directory() . '/inc/breadcrumbs.php';
+
+/**
+ * metabox added
+ */
+require get_template_directory() . '/inc/metaboxes/cmb-functions.php';
+
+/**
+ * custom post added
+ */
+require get_template_directory() . '/inc/custom-post/cpt-functions.php';
